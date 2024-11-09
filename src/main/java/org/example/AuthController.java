@@ -19,7 +19,7 @@ public class AuthController {
 
     public static void signIn() throws MessagingException {
         String userLogin = Input.input_STRING("Enter user name or email: ");
-        String password = Input.input_STRING("Enter password: ");
+        String password = Input.input_STRING("Enter  password: ");
         User user = null;
 
         user = findUser(userLogin, password);
